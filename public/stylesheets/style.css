@@ -1,0 +1,29 @@
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#toast-place {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  min-height: 500px;
+}
+
+.about {
+  text-align: center;
+}
+
+.db {
+  border: 1px solid red;
+}
+
+.t {
+  border: 1px solid rgba(255, 255, 255, 0);
+}
